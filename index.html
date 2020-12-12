@@ -8,13 +8,13 @@
 
 </head>
 <body>
-  <!-- navigation-->
+  <!-- navigation -->
   <header id="header">
     <h1>RUN BUDDY</h1>
     <nav>
-      <!-- Unordered list element-->
+      <!-- Unordered list element -->
       <ul>
-        <!-- List item element-->
+        <!-- List item element -->
         <li>
           <a href="#what-we-do">What We Do</a>
         </li>
@@ -31,7 +31,7 @@
     </nav>
   </header>
 
-  <!-- FORM -->
+  <!-- HERO SECTION and FORM -->
   <section>
     <div>
       <h3>Get Started Today</h3>
@@ -42,14 +42,31 @@
         <input type="text" placeholder="Your Name" name="name" id="name" />
         <!-- EMAIL ADDRESS -->
         <label for="email">Email Address:</label>
-        <input type="text" placeholder="Email Address" name="email" id="email" />
+        <input type="email" placeholder="Email Address" name="email" id="email" />
         <!-- PHONE NUMBER -->
         <label for="phoneNumber">Phone Number</label>
-        <input type="text" placeholder="Phone Number" name="phoneNumber" id="phoneNumber" />
-      </form>
-      
+        <input type="tel" placeholder="Phone Number" name="phoneNumber" id="phoneNumber" />
+        <!-- WORKED WITH TRAINER? -->
+        <p>
+          Have you worked out with a trainer before?
+          <input type="radio" name="trainer-confirm" id="trainer-yes" />
+          <label for="trainer-yes">Yes</label>
+          <input type="radio" name="trainer-confirm" id="trainer-no" />
+          <label for="trainer-no">No</label>
+        </p>
+        <!-- OLD ENOUGH? -->
+        <p>
+          <label for="checkbox">I acknowledge that I am at least 18 years of age</label>
+          <input type="checkbox" name="age-confirm" id="checkbox" />
+        </p>
+        <!-- SUBMIT -->
+        <button type="submit">
+          Get Running!
+        </button>
+      </form>  
     </div>
   </section>
+<!-- END of HERO SECTION and FORM -->
 
   <!-- hero/jumbotron -->
   <section>
