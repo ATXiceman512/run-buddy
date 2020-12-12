@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RUN BUDDY</title>
+    <meta charset="UTF-8" />
+    <title>Run Buddy</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 
 </head>
 <body>
   <!-- navigation -->
-  <header id="header">
-    <h1>RUN BUDDY</h1>
+  <header>
+    <h1>
+      <a href="/">
+        RUN BUDDY
+      </a>
+    </h1>
     <nav>
       <!-- Unordered list element -->
       <ul>
@@ -32,20 +35,20 @@
   </header>
 
   <!-- HERO SECTION and FORM -->
-  <section>
-    <div>
-      <h3>Get Started Today</h3>
-      <p>Fill out this form and one of our trainers with schedule a consult</p>
+  <section class="hero">
+    <div class="hero-form">
+      <h3>Get Started Today!</h3>
+      <p>Fill out this form and one of our trainers will schedule a consult</p>
       <form>
         <!-- NAME -->
         <label for="name">Enter full name:</label>
-        <input type="text" placeholder="Your Name" name="name" id="name" />
+        <input type="text" placeholder="Your Name" name="name" id="name" class="form-input" />
         <!-- EMAIL ADDRESS -->
         <label for="email">Email Address:</label>
-        <input type="email" placeholder="Email Address" name="email" id="email" />
+        <input type="email" placeholder="Email Address" name="email" id="email" class="form-input" />
         <!-- PHONE NUMBER -->
         <label for="phoneNumber">Phone Number</label>
-        <input type="tel" placeholder="Phone Number" name="phoneNumber" id="phoneNumber" />
+        <input type="tel" placeholder="Phone Number" name="phoneNumber" id="phoneNumber" class="form-input" />
         <!-- WORKED WITH TRAINER? -->
         <p>
           Have you worked out with a trainer before?
@@ -68,8 +71,9 @@
   </section>
 <!-- END of HERO SECTION and FORM -->
 
-  <!-- hero/jumbotron -->
+  <!-- "what we do" section -->
   <section>
+    <h2>What We Do</h2>
   </section>
 
   <!-- "what you do" section-->
