@@ -1,16 +1,16 @@
-# Run Buddy Inc.
+# Run Buddy, Inc
 
 ## Purpose
-A website that offers fitness training services.
+A website that offers fitness training services. 
 
 ## Built With
 * HTML
 * CSS
 
 ## Website
-https://atxiceman512.github.io/run-buddy/
+https://lernantino.github.io/run-buddy/
 
 ## Contribution
-Made with ❤️ by Justin Beard
+Made with ❤️ by [your name]
 
-# TESTING1
+### ©️2019 Run Buddy, Inc 
